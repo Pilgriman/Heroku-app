@@ -1,0 +1,17 @@
+asgiref==3.2.10
+dj-database-url==0.5.0
+dj-static==0.0.6
+Django==3.1
+ez-setup==0.9
+httplib2==0.18.1
+oauth2client==4.1.3
+Pillow==7.2.0
+protobuf==4.0.0rc2
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+python-decouple==3.3
+pytz==2020.1
+rsa==4.6
+six==1.15.0
+sqlparse==0.3.1
+static3==0.7.0

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <a href="{% url 'logout' %}">Sair</a>
+    <ul>
+        {% for person in persons %}
+        <li>
+            <a href="{% url 'person_update' person.id %}"> {{ person.first_name }} </a>
+            <a href="{% url 'person_delete' person.id %}"> Delete </a>
+        </li>
+        {% endfor %}
+    </ul>
+<a href=" {%url 'person_new'%} " > new client </a>
+</body>
+</html>
